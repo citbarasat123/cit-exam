@@ -1,4 +1,4 @@
-import { ReFetchAtom } from "@/utils/ReFetchAtom";
+import { ReFetchAtom } from "@/utils/reFetchAtom";
 import { UserType } from "@/utils/userType";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
