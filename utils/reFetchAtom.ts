@@ -1,4 +1,4 @@
 import { atom } from "jotai";
 
-export const reFetchAtom = atom(true);
+export const ReFetchAtom = atom(true);
 
