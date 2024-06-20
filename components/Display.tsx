@@ -1,4 +1,4 @@
-import { reFetchAtom } from "@/utils/reFetchAtom";
+import { reFetchAtom } from "@/utils/ReFetchAtom";
 import { UserType } from "@/utils/userType";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
@@ -9,7 +9,7 @@ import LoadingCard from "./LoadingCard";
 import UserCard from "./UserCard";
 
 const Display = () => {
-  const [load, setLoad] = useAtom(reFetchAtom);
+  const [load, setLoad] = useAtom(ReFetchAtom);
 
   const { data, isLoading, isFetching, isFetched, isSuccess, isError } =
     useQuery({
